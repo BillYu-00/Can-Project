@@ -1,0 +1,46 @@
+/* Global Styles go here */
+body {
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+.container::-webkit-scrollbar{
+  display:none;
+}
+
+.container{
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+
+
+img {
+  width: 100%;
+}
+
+.imgheight{
+  height:100%;
+}
+
+.mo-image-container {
+  width: 100%;
+}
+
+
+
+.mo-menu-bar{
+  position:fixed;
+  top:25px;
+  right:20px;
+  width:8%;
+  z-index: 200;
+}
+
+
+.mo-bio-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 200px;
+}
